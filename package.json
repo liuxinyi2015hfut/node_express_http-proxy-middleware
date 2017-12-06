@@ -1,0 +1,16 @@
+{
+  "name": "http-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "test-node":"node server/main.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "http-proxy-middleware": "^0.17.4",
+    "querystring": "^0.2.0"
+  }
+}
