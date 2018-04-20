@@ -5,7 +5,7 @@ let proxyConfig=require('./proxy.config');
 let querystring=require('querystring');
 
 let app=express();
-app.listen(8333);
+app.listen(3000);
 
 app.all('*', function(req, res, next) {
 	res.header("Access-Control-Allow-Origin", "*");
